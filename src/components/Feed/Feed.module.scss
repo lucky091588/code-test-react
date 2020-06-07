@@ -1,0 +1,33 @@
+.feed {
+  flex: 0 1 33.3333%;
+  margin-bottom: 30px;
+}
+
+.feedArticle {
+  height: 100%;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  margin: 0 15px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 3px #ccc;
+  height: 100%;
+  transition: transform .3s ease,
+              box-shadow .3s ease;
+
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #ccc;
+  }
+
+  h2 {
+    font-size: 21px;
+    color: #252525;
+    text-transform: capitalize;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}

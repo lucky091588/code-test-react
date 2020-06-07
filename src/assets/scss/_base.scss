@@ -1,0 +1,17 @@
+html {
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  background-color: #fff;
+  color: #151515;
+}
+p {
+  &:empty {
+    display: none;
+  }
+}
+a {
+  outline: none;
+}

@@ -1,0 +1,23 @@
+.fullFeed {
+  max-width: 770px;
+  margin: auto;
+  padding: 40px 30px;
+  box-shadow: 0 0 3px #ccc;
+
+  h2 {
+    font-size: 21px;
+    text-transform: capitalize;
+    color: #107896;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+.loader {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
