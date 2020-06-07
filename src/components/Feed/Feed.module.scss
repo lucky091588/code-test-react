@@ -1,6 +1,10 @@
 .feed {
   flex: 0 1 33.3333%;
   margin-bottom: 30px;
+
+  @media (max-width: 768px) {
+    flex: 0 1 50%;
+  }
 }
 
 .feedArticle {
@@ -15,6 +19,11 @@
   height: 100%;
   transition: transform .3s ease,
               box-shadow .3s ease;
+
+  @media (max-width: 500px) {
+    margin: 0;
+    padding: 20px 15px;
+  }
 
   &:hover {
     transform: scale(1.1);

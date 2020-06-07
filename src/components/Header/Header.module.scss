@@ -4,4 +4,10 @@
   justify-content: space-between;
   background-color: #107896;
   padding: 0 30px;
+
+  @media (max-width: 500px) {
+    padding: 10px 15px;
+    display: block;
+    text-align: center;
+  }
 }

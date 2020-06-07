@@ -1,12 +1,24 @@
 @import 'assets/scss/base';
 @import 'assets/scss/sanitize';
 
+.main-content {
+  padding: 0 15px; 
+}
+
 .main-title {
   text-align: center;
   padding: 40px 0;
 
+  @media (max-width: 500px) {
+    padding: 40px 0 0;
+  }
+
   h1 {
     font-size: 36px;
+
+    @media (max-width: 500px) {
+      font-size: 28px;
+    }
   }
 }
 
